@@ -1,0 +1,3 @@
+dist
+**/*.md
+node_modules

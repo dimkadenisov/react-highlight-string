@@ -1,0 +1,38 @@
+:root {
+  --body-bg: #f5f5f5;
+  --text-main: #171717;
+  --text-highlight: #ff0000;
+  --layout-item-bg: #dcdcdc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #202124;
+    --text-main: #e8eaed;
+    --layout-item-bg: #565656;
+  }
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-main);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  max-width: 460px;
+  margin: 60px auto;
+}
+
+.layout_item {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--layout-item-bg);
+}
+
+.active {
+  background-color: var(--text-highlight);
+}

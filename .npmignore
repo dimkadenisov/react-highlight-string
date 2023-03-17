@@ -1,0 +1,14 @@
+.github/
+.husky/
+node_modules/
+src/
+tests/
+.eslintignore
+.eslintrc
+.prettierignore
+.prettierrc
+.releaserc
+index.html
+tsconfig.json
+tsconfig.node.json
+vite.config.ts

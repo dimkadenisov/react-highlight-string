@@ -1,0 +1,264 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Active index and class name 1`] = `
+<span
+  className="highlighter"
+>
+  <span>
+    Somewhere over 
+  </span>
+  <mark
+    className="active"
+    style={{}}
+  >
+    the
+  </mark>
+  <span>
+     rainbow Bluebirds fly And 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     dreams that you dream of Dreams really do come true-ooh-ooh Someday I'll wish upon a star Wake up where 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     clouds are far behind me Where trouble melts like lemon drops High above 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     chimney tops that's where You'll find me, oh
+  </span>
+</span>
+`;
+
+exports[`Active index and class name 2`] = `
+<span
+  className="highlighter"
+>
+  <span>
+    Somewhere over 
+  </span>
+  <mark
+    className="active"
+    style={{}}
+  >
+    the
+  </mark>
+  <span>
+     rainbow Bluebirds fly And 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     dreams that you dream of Dreams really do come true-ooh-ooh Someday I'll wish upon a star Wake up where 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     clouds are far behind me Where trouble melts like lemon drops High above 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     chimney tops that's where You'll find me, oh
+  </span>
+</span>
+`;
+
+exports[`Active index and class name 3`] = `
+<span
+  className="highlighter"
+>
+  <span>
+    Somewhere over 
+  </span>
+  <mark
+    className="active"
+    style={{}}
+  >
+    the
+  </mark>
+  <span>
+     rainbow Bluebirds fly And 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     dreams that you dream of Dreams really do come true-ooh-ooh Someday I'll wish upon a star Wake up where 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     clouds are far behind me Where trouble melts like lemon drops High above 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     chimney tops that's where You'll find me, oh
+  </span>
+</span>
+`;
+
+exports[`Active index and class name 4`] = `
+<span
+  className="highlighter"
+>
+  <span>
+    Somewhere over 
+  </span>
+  <mark
+    className="active"
+    style={{}}
+  >
+    the
+  </mark>
+  <span>
+     rainbow Bluebirds fly And 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     dreams that you dream of Dreams really do come true-ooh-ooh Someday I'll wish upon a star Wake up where 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     clouds are far behind me Where trouble melts like lemon drops High above 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     chimney tops that's where You'll find me, oh
+  </span>
+</span>
+`;
+
+exports[`Active index and class name 5`] = `
+<span
+  className="highlighter"
+>
+  <span>
+    Somewhere over 
+  </span>
+  <mark
+    className="active"
+    style={{}}
+  >
+    the
+  </mark>
+  <span>
+     rainbow Bluebirds fly And 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     dreams that you dream of Dreams really do come true-ooh-ooh Someday I'll wish upon a star Wake up where 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     clouds are far behind me Where trouble melts like lemon drops High above 
+  </span>
+  <mark>
+    the
+  </mark>
+  <span>
+     chimney tops that's where You'll find me, oh
+  </span>
+</span>
+`;
+
+exports[`Case sensitive 1`] = `
+<span>
+  <span>
+    Hello word
+  </span>
+</span>
+`;
+
+exports[`Highlight component 1`] = `
+<span
+  className="highlighter"
+>
+  <mark
+    className="undefined even"
+  >
+    Hello
+  </mark>
+  <i>
+     word
+  </i>
+</span>
+`;
+
+exports[`Multiple substrings 1`] = `
+<span>
+  <mark>
+    Hello
+  </mark>
+  <span>
+     
+  </span>
+  <mark>
+    w
+  </mark>
+  <span>
+    ord
+  </span>
+</span>
+`;
+
+exports[`Multiple substrings case sensitive 1`] = `
+<span>
+  <span>
+    Hello 
+  </span>
+  <mark>
+    w
+  </mark>
+  <span>
+    ord
+  </span>
+</span>
+`;
+
+exports[`Simple test 1`] = `
+<span>
+  <mark>
+    Hello
+  </mark>
+  <span>
+     word
+  </span>
+</span>
+`;
+
+exports[`With class name 1`] = `
+<span
+  className="highlighter"
+>
+  <mark>
+    Hello
+  </mark>
+  <span>
+     word
+  </span>
+</span>
+`;
