@@ -16,13 +16,15 @@
   "main": "./dist/react-highlight-string.umd.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "prepare": "husky install",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "dev": "vite",
     "fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install",
+    "prepublishOnly": "yarn test && yarn lint && rm -rf dist && yarn build",
+    "preview": "vite preview",
+    "semantic-release": "semantic-release",
     "test": "vitest"
   },
   "husky": {
