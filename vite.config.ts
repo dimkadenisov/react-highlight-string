@@ -30,6 +30,14 @@ export default defineConfig((configEnv) => ({
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies), 'react/jsx-runtime'],
+      output: {
+        // Provide global variables to use in the UMD build
+        // for externalized deps
+        globals: {
+          react: 'React',
+          'react/jsx-runtime': 'react/jsx-runtime',
+        },
+      },
     },
   },
 }))
