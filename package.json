@@ -27,6 +27,10 @@
     "semantic-release": "semantic-release",
     "test": "vitest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimkadenisov/react-highlight-string.git"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -68,5 +72,20 @@
   "peerDependencies": {
     "react": "16.8.0 || >=17.x",
     "react-dom": "16.8.0 || >=17.x"
-  }
+  },
+  "keywords": [
+    "highlighter",
+    "highlight",
+    "text",
+    "string",
+    "substring",
+    "words",
+    "match",
+    "matches",
+    "occurrences",
+    "search",
+    "react"
+  ],
+  "author": "Dmitriy Denisov",
+  "license": "MIT"
 }
