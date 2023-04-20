@@ -23,8 +23,8 @@ type WithoutActiveIndex = {
 }
 
 export type HighlightComponentProps = {
-  activeIndex: number
   highlightIndex: number
+  activeIndex?: number
   /**
    * CSS class or classes that will contain `activeClassName` and `highlightClassName` if they were provided
    */
