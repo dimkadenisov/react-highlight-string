@@ -35,17 +35,25 @@ export function Highlighter({
           highlightIndex++
           const isActive = activeIndex === highlightIndex
 
-          return (
-            // to avoid passing highlightIndex and activeIndex props to html components
-            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-            // @ts-ignore
+          return typeof HighlightComponent === 'string' ? (
             <HighlightComponent
               className={
                 isActive ? mergeClassNames(highlightClassName, activeClassName) : highlightClassName
               }
               style={isActive ? { ...highlightStyle, ...activeStyle } : highlightStyle}
               key={index}
-              {...(typeof HighlightComponent !== 'string' && { highlightIndex, activeIndex })}
+            >
+              {text}
+            </HighlightComponent>
+          ) : (
+            <HighlightComponent
+              className={
+                isActive ? mergeClassNames(highlightClassName, activeClassName) : highlightClassName
+              }
+              style={isActive ? { ...highlightStyle, ...activeStyle } : highlightStyle}
+              key={index}
+              highlightIndex={highlightIndex}
+              activeIndex={activeIndex}
             >
               {text}
             </HighlightComponent>
