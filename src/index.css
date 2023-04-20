@@ -36,3 +36,7 @@ body {
 .active {
   background-color: var(--text-highlight);
 }
+
+.highlighter {
+  background-color: salmon;
+}
