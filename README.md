@@ -1,5 +1,7 @@
 Tiny react component to highlight given string in text. Written in **TypeScript**. Based on [highlight-string](https://github.com/dimkadenisov/highlight-string).
 
+[Sandbox](https://codesandbox.io/p/sandbox/react-highlight-string-example-f1yyr3?file=%2Fsrc%2FApp.tsx) with code example.
+
 ## Usage
 
 Just pass a text and an array of strings to search for.
